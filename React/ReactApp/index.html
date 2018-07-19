@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+
+    	function showAlert(){
+    		alert("ああああ");
+    	}
+
+    	const name = "nino"
+    	var i = 10
+    	i = i + 10
+      ReactDOM.render(
+      	<div style={{width:100, height:100, backgroundColor:'tomato'}}
+      	onClick={showAlert}
+      	>
+        </div>,
+        document.getElementById('root')
+      );
+
+    </script>
+  </body>
+</html>
+
+UIC
